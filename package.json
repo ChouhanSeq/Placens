@@ -1,0 +1,21 @@
+{
+  "name": "Placens-theme",
+  "displayName": "Placens",
+  "description": "Pleasing dark theme to sooth your eyes while keeping your attention in check",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Placens",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Placens-color-theme.json"
+      }
+    ]
+  }
+}
